@@ -1,0 +1,31 @@
+## Christopher Chan, Net ID: ccc180002
+## Kim Le, Net ID: kml190002
+## Thomas Pham, Net ID: ttp190005
+## Hyun Guk Yoo, Net ID: hxy170002
+
+Link for dataset of images: https://personal.utdallas.edu/~kml190002/project-cs6375/train/
+Link for labels of dataset: https://personal.utdallas.edu/~kml190002/project-cs6375/
+
+This is the implementation of Convolutonal Neural Network without using any neural
+network creation libraries.
+
+Libraries Used: numpy: 1.24.2, pandas: 1.5.3, PIL: 9.4.0, requests: 2.28.1, matplotlib: 3.6.3, os (no version specified), time (no version specified), random (no version specified)
+
+Assumptions:
+  1. Python 3.9.6 installed
+  2. IDE installed (VS Code is recommended)
+  3. Pip 23.0.1 installed
+
+To Run Code:
+  1. Navigate to file in IDE after downloading
+  2. Install the necessary libraries
+  3. Make sure you are in the right directory. Change directory by typing cd then the directory name 
+  4. Create a directory in that directory to hold the images(images will automatically downloaded and saved to this folder)
+  5. Go to "Link for labels of dataset" and download train.csv
+  6. Move train.csv into correct directory
+  7. Copy path of directory to hold images and train.csv and replace it with the environment variables "PHOTO_DIRECTORY_PATH" and "labelsCSV". These are found above main.
+  8. Uncomment code at the various functions below the comparison class to run the function and see the charts. There is already a template provided. You can change the variables too for each function. They are the global variables in all caps above main below the section "#### CHANGE THESE FOR THE COMPARISON CLASS ####
+". 
+  9. Type python project.py to run code after you have uncommented the desired function and changed the variable
+
+  
